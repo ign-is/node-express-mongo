@@ -9,7 +9,7 @@ class Emitter extends EventEmitter {};
 
 // intialize object
 const myEmitter = new Emitter();
-
+myEmitter.on('log', (msg, fileName) => logEvents(msg, fileName));
 const PORT = process.env.PORT || 3500;
 
 const serveFile = async (filePath, contentType, response) => {
@@ -37,6 +37,7 @@ const serveFile = async (filePath, contentType, response) => {
 
 const server = http.createServer((req, res) => {
     console.log(req.url, req.method);
+    myEmitter.emit('log', `${req.url}\t${req.method}`, 'reqLog.txt');
 
     const extension = path.extname(req.url);
 
@@ -100,3 +101,4 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
