@@ -1,0 +1,4 @@
+20241007	13:05:14	f36f6520-1adb-4e1a-896e-0f41a3bb5be8	Error: ENOENT: no such file or directory, stat 'C:\Users\igna-.LAPTOP-AQD2GFSV\OneDrive\Desktop\node-express-mongo\08TUT\routes\views\subdir\index.html'
+20241007	13:06:39	14f71272-793f-462b-b244-365e94b850fc	Error: ENOENT: no such file or directory, stat 'C:\Users\igna-.LAPTOP-AQD2GFSV\OneDrive\Desktop\node-express-mongo\08TUT\routes\views\subdir\index.html'
+20241007	13:07:43	740cb10e-725b-4668-8072-b8bcd6bf367b	Error: ENOENT: no such file or directory, stat 'C:\Users\igna-.LAPTOP-AQD2GFSV\OneDrive\Desktop\node-express-mongo\08TUT\routes\views\subdir\index.html'
+20241007	13:07:45	f9991ded-afd5-439e-b459-8119a6e948e7	Error: ENOENT: no such file or directory, stat 'C:\Users\igna-.LAPTOP-AQD2GFSV\OneDrive\Desktop\node-express-mongo\08TUT\routes\views\subdir\index.html'
